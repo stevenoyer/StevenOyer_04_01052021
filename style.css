@@ -27,6 +27,10 @@ a:hover {
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
+.text-bold {
+    font-weight: bold;
+}
+
 .bloc {
     width: 100%;
     clear: both;
@@ -37,6 +41,11 @@ a:hover {
     -o-background-size: cover;
     background-size: cover;
     position: relative;
+}
+
+footer, footer p {
+    font-size: 18px;
+    color: white;
 }
 
 .bloc .container {
@@ -66,10 +75,10 @@ a:hover {
 .bg-tr-edge,
 .bg-br-edge,
 .bg-repeat {
-    -webkit-background-size: auto!important;
-    -moz-background-size: auto!important;
-    -o-background-size: auto!important;
-    background-size: auto!important;
+    -webkit-background-size: cover!important;
+    -moz-background-size: cover!important;
+    -o-background-size: cover!important;
+    background-size: cover!important;
 }
 
 .bg-repeat {
@@ -91,7 +100,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -677,7 +686,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -775,7 +784,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #f9a67f!important;
 }
 
 .btn-atomic-tangerine {
@@ -818,11 +827,17 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/la-chouette-agence-banniere.webp");
+
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.webp");
+
+}
+
+.mt-5 {
+    margin-top: 15px;
 }
 
 @media (max-width: 1024px) {
