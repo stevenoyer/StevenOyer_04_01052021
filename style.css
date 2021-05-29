@@ -6,7 +6,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
+/* orange color footer #f3976c */
 a,
 button {
     transition: all .3s ease-in-out;
@@ -45,7 +45,7 @@ a:hover {
 
 footer, footer p {
     font-size: 18px;
-    color: white;
+    color: white !important;
 }
 
 .bloc .container {
@@ -83,6 +83,7 @@ footer, footer p {
 
 .bg-repeat {
     background: repeat;
+    background-size: auto !important;
 }
 
 .bg-t-edge {
@@ -745,7 +746,11 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #FFFFFF !important;
+}
+
+.black {
+    color: #000 !important;
 }
 
 .portfolio-thumb {
@@ -789,7 +794,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000 !important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -836,8 +841,27 @@ h4 {
 
 }
 
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .mt-5 {
     margin-top: 15px;
+}
+
+.footer--links {
+    margin-top: 10px;
+}
+
+.footer--links li {
+    padding: 5px 0;
+}
+
+.footer--links li a {
+    color: #000 !important;
 }
 
 @media (max-width: 1024px) {
