@@ -793,7 +793,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #CF9377;
     color: #000 !important;
 }
 
@@ -843,6 +843,11 @@ h4 {
 
 .white-text-color {
     color: #fff !important;
+}
+
+.contact-page-title {
+    background: #93360B;
+    padding: 10px 10px 30px 10px;
 }
 
 .flex {
